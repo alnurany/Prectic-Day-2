@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 20px;
+}
+
+.header-part{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    padding-left: 20px;
+}
+
+.first-color{
+    color: #ffaeaf;
+}
+ .btn{
+     text-decoration: none; 
+    color: white;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(235, 11, 123, 0.533), rgba(22, 19, 19, 0.2));
+    padding: 5px 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+.header-first-half p {
+    padding: 20px;
+    font-style: oblique;
+
+}
+
+.header-second-half {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.about-us {
+    display: flex;
+    margin-bottom: 100px;
+   background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.about-first-half {
+    width: 50%;
+}
+
+.about-first-half img {
+    width: 50%;
+    margin: 0%;
+
+}
+.about-first-half p {
+    text-transform: capitalize;
+}
+
+.experience-part {
+    margin-bottom: 100px;
+}
+.experience-part h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flexible-sec {
+    display: flex;
+}
+
+.experience {
+    width: 25%;
+    margin: 0 5%;
+    background-color: ivory;
+    box-shadow: 0px 10px 20px #00000001;
+    border-radius: 10px 10px 15px 15px;
+    text-align: center;
+    padding: 20px 30px;
+
+}
+.experience p{
+    margin-top: 22px;
+}
+
+.contact-part {
+    margin-bottom: 10px;
+}
+
+.flexible-contact{
+    display: flex;
+} 
+
+.contact-part h2{
+    text-align: center;
+   
+}
+.cont-half{
+    width: 40%;
+    margin: 0 5%;
+
+}
+.cont-half h3 {
+color: #ff351f;
+}
+
+footer{
+    text-align: center;
+}
